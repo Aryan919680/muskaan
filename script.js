@@ -1,6 +1,6 @@
 let highestZ = 1;
 
-class Paper {
+class Paper1 {
   holdingPaper = false;
   mouseTouchX = 0;
   mouseTouchY = 0;
@@ -74,9 +74,9 @@ class Paper {
   }
 }
 
-const papers = Array.from(document.querySelectorAll('.paper'));
+const papers1 = Array.from(document.querySelectorAll('.paper'));
 
-papers.forEach(paper => {
-  const p = new Paper();
+papers1.forEach(paper => {
+  const p = new Paper1();
   p.init(paper);
 });

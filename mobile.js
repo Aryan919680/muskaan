@@ -1,4 +1,4 @@
-let highestZ = 1;
+let highestZa = 1;
 
 class Paper {
   holdingPaper = false;
@@ -57,8 +57,8 @@ class Paper {
       if(this.holdingPaper) return; 
       this.holdingPaper = true;
       
-      paper.style.zIndex = highestZ;
-      highestZ += 1;
+      paper.style.zIndex = highestZa;
+      highestZa += 1;
       
       this.touchStartX = e.touches[0].clientX;
       this.touchStartY = e.touches[0].clientY;
